@@ -1,5 +1,12 @@
+import { ExperienceBar } from "./componentes/ExperienceBar";
+import "./styles/global.css";
+
 function App() {
-  return <h1>Hello nlw4</h1>;
+  return (
+    <div className="container">
+      <ExperienceBar />
+    </div>
+  );
 }
 
 export default App;
